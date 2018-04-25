@@ -1,29 +1,32 @@
 {
     "development": {
         "PORT": "5443",
-        "HOST": "",
-        "DB_PORT": "",
-        "DB_USER": "",
-        "DB_PASSWORD": "",
-        "DB_NAME": "",
-        "LOG_LEVEL": "debug"
+        "DB_HOST": "localhost",
+        "DB_PORT": "3306",
+        "DB_USER": "root",
+        "DB_PASSWORD": "password",
+        "DB_NAME": "app-setup",
+        "LOG_LEVEL": "debug",
+        "JWT_SECRET": "butts"
     },
     "testing": {
         "PORT": "5443",
-        "HOST": "",
+        "DB_HOST": "",
         "DB_PORT": "",
         "DB_USER": "",
         "DB_PASSWORD": "",
         "DB_NAME": "",
-        "LOG_LEVEL": "error"
+        "LOG_LEVEL": "error",
+        "JWT_SECRET": "buttss"
     },
     "production": {
         "PORT": "5443",
-        "HOST": "",
+        "DB_HOST": "",
         "DB_PORT": "",
         "DB_USER": "",
         "DB_PASSWORD": "",
         "DB_NAME": "",
-        "LOG_LEVEL": "info"
+        "LOG_LEVEL": "info",
+        "JWT_SECRET": "buttsss"
     }
 }

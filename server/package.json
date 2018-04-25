@@ -5,7 +5,12 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./index.js",
-    "start:dev": "cross-env NODE_ENV=\"development\" nodemon ./index.js"
+    "start:dev": "cross-env NODE_ENV=\"development\" nodemon ./index.js",
+    "db:make": "cross-env NODE_ENV=\"development\" knex migrate:make",
+    "db:migrate": "cross-env NODE_ENV=\"development\" knex migrate:latest",
+    "db:rollback": "cross-env NODE_ENV=\"development\" knex migrate:rollback",
+    "db:seed:make": "cross-env NODE_ENV=\"development\" knex seed:make",
+    "db:seed": "cross-env NODE_ENV=\"development\" knex seed:run"
   },
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
