@@ -1,0 +1,29 @@
+{
+    "development": {
+        "PORT": "5443",
+        "HOST": "",
+        "DB_PORT": "",
+        "DB_USER": "",
+        "DB_PASSWORD": "",
+        "DB_NAME": "",
+        "LOG_LEVEL": "debug"
+    },
+    "testing": {
+        "PORT": "5443",
+        "HOST": "",
+        "DB_PORT": "",
+        "DB_USER": "",
+        "DB_PASSWORD": "",
+        "DB_NAME": "",
+        "LOG_LEVEL": "error"
+    },
+    "production": {
+        "PORT": "5443",
+        "HOST": "",
+        "DB_PORT": "",
+        "DB_USER": "",
+        "DB_PASSWORD": "",
+        "DB_NAME": "",
+        "LOG_LEVEL": "info"
+    }
+}
